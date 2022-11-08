@@ -495,12 +495,13 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	background-color: #68e0cf;
+	
+	
 }
 
 .background-filter .background-img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
+	-webkit-filter: none;
+	filter: none;
 	mix-blend-mode: luminosity;
 }
 
